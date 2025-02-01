@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Scanner scanner = new Scanner(System.in);
+
         double springCost;
         double summerCost;
         double fallCost;
@@ -12,18 +12,18 @@ public class Main {
 
 
          System.out.print(" what is the maintenance cost for Spring: ");
-         springCost = scanner.nextDouble();
+         springCost = 50;
 
         System.out.print(" what is the maintenance cost for Summer: ");
-        summerCost = scanner.nextDouble();
+        summerCost = 60;
 
 
         System.out.print(" what is the maintenance cost for Fall: ");
-        fallCost = scanner.nextDouble();
+        fallCost = 70;
 
 
         System.out.print(" what is the maintenance cost for Winter: ");
-        winterCost = scanner.nextDouble();
+        winterCost = 80;
 
 double totalCost = springCost + summerCost + fallCost + winterCost;
 
@@ -33,6 +33,6 @@ System.out.printf(" The maintenance cost for fall was: $" + fallCost);
 System.out.printf(" The maintenance cost for winter was: $" + winterCost);
 System.out.printf(" The maintenance cost for the year was: $" + totalCost);
 
-scanner.close();
+
     }
 }
